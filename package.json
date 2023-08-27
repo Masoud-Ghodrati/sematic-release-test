@@ -1,0 +1,24 @@
+
+{
+    "name": "your-package-name",
+    "version": "1.0.0",
+    "description": "Your package description",
+    "scripts": {
+          "semantic-release": "semantic-release"
+    },
+    "private": true,
+    "release": {
+      "branches": ["main"]
+    },
+    "devDependencies": {
+
+      "@semantic-release/commit-analyzer": "^10.0.1",
+      "@semantic-release/release-notes-generator": "^11.0.1",
+      "@semantic-release/npm": "7.0.0",
+      "@semantic-release/git": "10.0.1",
+      "@semantic-release/github": "8.0.6",
+      "semantic-release": "19.0.5",
+      "semantic-release-github-actions-tags": "1.0.3"
+    }
+  }
+  
